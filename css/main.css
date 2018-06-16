@@ -47,7 +47,7 @@ Body {
   background-image: url(../images/placeholder2.jpg);
   background-size: cover;
   min-height: 50vh;
-  text-align: center;
+  text-align: contain;
   border: 20px solid white;
 }
 
