@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <title> {{page.title}} </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+  <!-- CSS --> <!-- normalize always first to reset-->
+    <link rel="stylesheet" href="/css/gridlex.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900">
+
+    <!-- All third party above this line -->
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+  <body>
+
+    {% include navigation.html %}
+
+    {% include frankies-feast-banner.html %}
+
+    {{content}}
+
+    {% include footer.html %}
+
+  </body>
+</html>
