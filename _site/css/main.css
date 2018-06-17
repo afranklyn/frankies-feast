@@ -25,6 +25,7 @@ section, footer {padding: 5% 2%;}
 
 .padded-1 { padding: 1%; }
 .padded-2 { padding: 2%; }
+.padded-3 { padding: 3%; }
 .padded-none { padding: 0; }
 
 .capped-width {
@@ -52,6 +53,12 @@ section, footer {padding: 5% 2%;}
   right: 0;
   background: radial-gradient(#344055, rgba(255, 255, 255, 0));
 
+}
+
+.button {
+  border: 1px solid #344055;
+  padding: .2rem;
+  border-radius: 2px;
 }
 
 /* navigation bar */
