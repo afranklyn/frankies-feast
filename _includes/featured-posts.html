@@ -8,7 +8,7 @@
       <a href="{{post.url}}">
         <img src="{{post.featured_image}}" alt="{{post.title}}">
         <div class="bottom-left">
-          <h3>{{post.category}}</h3>
+          <h3>{{post.categories}}</h3>
           <h2>{{post.title}}</h2>
         </div>
       </a>
@@ -16,13 +16,12 @@
     {% endfor %}
 
     <div class="grid">
-    <!-- sort/filter function goes here -->
       {% for post in site.posts limit:2 offset:1 %}
       <div class="container col-6">
         <a href="{{post.url}}">
           <img src="{{post.featured_image}}" alt="{{post.title}}">
           <div class="bottom-left">
-            <h3>{{post.category}}</h3>
+            <h3>{{post.categories}}</h3>
             <h2>{{post.title}}</h2>
           </div>
         </a>

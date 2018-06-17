@@ -11,7 +11,6 @@
   <!-- CSS --> <!-- normalize always first to reset-->
     <link rel="stylesheet" href="/css/gridlex.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800">
-
     <!-- All third party above this line -->
     <link rel="stylesheet" href="/css/main.css">
   </head>
@@ -67,10 +66,10 @@
     <!-- sort/filter function goes here -->
     
     <div class="container capped-width">
-      <a href="/vegan/breakfast/2018/01/03/third-blog.html">
+      <a href="/favourites/2018/01/03/third-blog.html">
         <img src="/images/placeholder.jpg" alt="third Blog Post">
         <div class="bottom-left">
-          <h3></h3>
+          <h3>favourites</h3>
           <h2>third Blog Post</h2>
         </div>
       </a>
@@ -78,23 +77,22 @@
     
 
     <div class="grid">
-    <!-- sort/filter function goes here -->
       
       <div class="container col-6">
-        <a href="/vegan/breakfast/2018/01/02/second-blog.html">
-          <img src="http://www.instituteofcode.com/assets/images/rice-paddy.jpg" alt="Second Blog Post">
+        <a href="/recipes/2018/01/02/second-blog.html">
+          <img src="/images/favourites.jpg" alt="Second Blog Post">
           <div class="bottom-left">
-            <h3></h3>
+            <h3>recipes</h3>
             <h2>Second Blog Post</h2>
           </div>
         </a>
       </div>
       
       <div class="container col-6">
-        <a href="/travel/tips/2018/01/01/first-blog.html">
-          <img src="http://www.instituteofcode.com/assets/images/rice-paddy.jpg" alt="First Blog Post">
+        <a href="/travel/2018/01/01/first-blog.html">
+          <img src="/images/recipes.jpg" alt="First Blog Post">
           <div class="bottom-left">
-            <h3></h3>
+            <h3>travel</h3>
             <h2>First Blog Post</h2>
           </div>
         </a>
@@ -109,20 +107,23 @@
 <section>
   <h3>explore more</h3>
 
-  <div class="grid explore">
-    <div class="col-4 grid-middle explore-recipes">
-      <div class="overlay"></div>
+  <div class="grid">
+    <a class="col-4 relative grid-middle explore-recipes explore " href="/recipes">
       <h2 class="col-12">recipes</h2>
-    </div>
+    </a>
 
-    <div class="col-4 explore-travel">
-      <h2>travel</h2>
-    </div>
+    <a class="col-4 relative grid-middle explore explore-travel" href="/travel">
+      <h2 class="col-12">travel
+        <!-- <div class="radial-overlay"></div> -->
+      </h2>
+    </a>
 
-    <div class="col-4 explore-favourites">
-      <h2>frankie's
-        <br>favourites</h2>
-    </div>
+    <a href="/travel" class="col-4 relative grid-middle-center explore  explore-favourites">
+      <h2 class="col-5">frankie's
+      <br>favourites
+        <!-- <div class="radial-overlay"></div> -->
+      </h2>
+    </a>
 </section>
 
 

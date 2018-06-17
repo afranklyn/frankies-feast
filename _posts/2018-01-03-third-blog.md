@@ -4,7 +4,7 @@ title: third Blog Post
 meta-description:
 meta-keywords:
 featured_image: /images/placeholder.jpg
-categories: [vegan, breakfast]
+categories: [favourites]
 author: Anna Franklyn
 ---
 

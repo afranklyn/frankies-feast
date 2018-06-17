@@ -3,8 +3,8 @@ layout: post
 title: Second Blog Post
 meta-description:
 meta-keywords:
-featured_image: http://www.instituteofcode.com/assets/images/rice-paddy.jpg
-categories: [vegan, breakfast]
+featured_image: /images/favourites.jpg
+categories: [recipes]
 author: Anna Franklyn
 ---
 

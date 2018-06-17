@@ -3,8 +3,8 @@ layout: post
 title: First Blog Post
 meta-description:
 meta-keywords:
-featured_image: http://www.instituteofcode.com/assets/images/rice-paddy.jpg
-categories: [travel, tips]
+featured_image: /images/recipes.jpg
+categories: [travel]
 author: Anna Franklyn
 ---
 

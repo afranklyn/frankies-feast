@@ -53,7 +53,7 @@ autopages:
   categories:
     # Optional, the list of layouts that should be processed for every category found in the site
     layouts:
-      - 'archive.html'
+      - 'category.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
     title: ':cat archive'
     # Optional, the permalink for the  pagination page (:cat is replaced),
@@ -62,6 +62,6 @@ autopages:
 
   collections:
     layouts:
-      - 'archive.html'
+      - 'category.html'
     title: 'Archive Posts'
     permalink: '/archive/:coll/'
