@@ -2,11 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 2px solid #cccccc;
+  border: 1px solid #cccccc;
 }
 
 Body {
   font-family: 'Work Sans', sans-serif;
+}
+
+/* navigation bar */
+
+nav {
+  position: fixed;
+}
+
+/* social icon styling */
+
+.icon {
+  width: 30px;
+  height: auto;
 }
 
 /* frankie's feast banner */
@@ -17,6 +30,7 @@ Body {
   min-height: 50vh;
   font-weight: 800;
   font-size: 3rem;
+  color: #98FB98;
 }
 
 .tagline {
@@ -46,10 +60,10 @@ Body {
 /* explore more section */
 
 .explore-recipes {
-  background-image: url(../images/placeholder2.jpg);
+  background-image: url(../images/recipes.jpg);
   background-size: cover;
   min-height: 50vh;
-  text-align: contain;
+  text-align: center;
   border: 20px solid white;
 }
 
@@ -62,7 +76,7 @@ Body {
 }
 
 .explore-favourites {
-  background-image: url(../images/placeholder3.jpg);
+  background-image: url(../images/favourites.jpg);
   background-size: cover;
   min-height: 50vh;
   text-align: center;
