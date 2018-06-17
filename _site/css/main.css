@@ -13,6 +13,7 @@ Body {
 
 nav {
   position: fixed;
+  display: inline;
   top: 0;
   right: 0;
   left: 0;
@@ -38,7 +39,7 @@ a {
 
 .banner-h3 {
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 5rem;
   color: #98FB98;
 }
 
@@ -91,4 +92,9 @@ a {
   min-height: 50vh;
   text-align: center;
   border: 20px solid white;
+}
+
+.margin-top-bottom-none {
+  margin-top: 0;
+  margin-bottom: 0;
 }
