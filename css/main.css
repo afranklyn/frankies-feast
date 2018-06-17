@@ -13,6 +13,13 @@ Body {
 
 nav {
   position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* social icon styling */
@@ -48,9 +55,10 @@ nav {
     position: relative;
     text-align: center;
     color: white;
+    padding: 1%
 }
 
-/* Bottom left text */
+  /* Bottom left text */
 .bottom-left {
     position: absolute;
     bottom: 8px;
