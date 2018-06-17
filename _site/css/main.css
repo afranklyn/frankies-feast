@@ -2,25 +2,64 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid #cccccc;
+  /* border: 1px solid rgb(245,245,245); */
+}
+
+img {
+  max-width:100%;
 }
 
 Body {
   font-family: 'Work Sans', sans-serif;
 }
 
+section, footer {padding: 5% 2%;}
+
+/* utility classes */
+.left { text-align: left; }
+.center {text-align: center; }
+.right {text-align: right;}
+
+.padded-1 { padding: 1%; }
+.padded-2 { padding: 2%; }
+.padded-none { padding: 0; }
+
+.capped-width {
+  max-width: 700px;
+  margin: auto;
+}
+.relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.5);
+}
+
 /* navigation bar */
 
-nav {
+header nav {
   position: fixed;
-  display: inline;
   top: 0;
   right: 0;
   left: 0;
+  background-color: rgb(245,245,245);
+  z-index: 2;
+}
+
+header nav a {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* social icon styling */
@@ -58,14 +97,17 @@ a {
     position: relative;
     text-align: center;
     color: white;
-    padding: 1%
+    padding: 0.5rem;
 }
 
   /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right:0.5rem;
+    padding: 5rem 1rem 1rem;
+    background-image: linear-gradient( rgba(255,255,255,0),black);
 }
 
 /* explore more section */

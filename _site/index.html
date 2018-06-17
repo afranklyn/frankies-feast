@@ -22,8 +22,8 @@
 <header>
 
 
-  <nav class="grid">
-    <div class="col-6">
+  <nav class="grid-middle">
+    <div class="col-6 padded-1">
       <a href="/">home</a>
       <a href="/about">about</a>
       <a href="/category-landing-page">recipes</a>
@@ -31,7 +31,7 @@
       <a href="/category-landing-page">frankie's favourites</a>
     </div>
 
-    <div class="col-6-right">
+    <div class="col-6 padded-1 right">
       <!-- subscribe -->
       subscribe input
 
@@ -63,32 +63,43 @@
 <section>
   <h3>featured posts</h3>
 
-  <!-- full width -->
-    <div class="container">
-      <a href="/posts"><img src="images/recipes.jpg" alt="#" style="width:100%;">
-        <div class="bottom-left">
-          <h3>category</h3>
-          <h2>post title</h2>
-        </div></a>
-    </div>
 
+    <!-- sort/filter function goes here -->
+    
+    <div class="container capped-width">
+      <a href="/vegan/breakfast/2018/01/03/third-blog.html">
+        <img src="/images/placeholder.jpg" alt="third Blog Post">
+        <div class="bottom-left">
+          <h3></h3>
+          <h2>third Blog Post</h2>
+        </div>
+      </a>
+    </div>
+    
 
-  <!-- half width -->
-  <div class="grid">
-    <div class="col-6 container">
-      <a href="/posts"><img src="images/placeholder.jpg" alt="#" style="width:100%;">
-        <div class="bottom-left">
-          <h3>category</h3>
-          <h2>post title</h2>
-        </div></a>
-    </div>
-    <div class="col-6 container">
-      <a href="http://google.com"><img src="images/favourites.jpg" alt="#" style="width:100%;">
-        <div class="bottom-left">
-          <h3>category</h3>
-          <h2>post title</h2>
-        </div></a>
-    </div>
+    <div class="grid">
+    <!-- sort/filter function goes here -->
+      
+      <div class="container col-6">
+        <a href="/vegan/breakfast/2018/01/02/second-blog.html">
+          <img src="http://www.instituteofcode.com/assets/images/rice-paddy.jpg" alt="Second Blog Post">
+          <div class="bottom-left">
+            <h3></h3>
+            <h2>Second Blog Post</h2>
+          </div>
+        </a>
+      </div>
+      
+      <div class="container col-6">
+        <a href="/travel/tips/2018/01/01/first-blog.html">
+          <img src="http://www.instituteofcode.com/assets/images/rice-paddy.jpg" alt="First Blog Post">
+          <div class="bottom-left">
+            <h3></h3>
+            <h2>First Blog Post</h2>
+          </div>
+        </a>
+      </div>
+      
   </div>
 
 </section>
@@ -98,9 +109,10 @@
 <section>
   <h3>explore more</h3>
 
-  <div class="grid-middle explore">
-    <div class="col-4 explore-recipes">
-      <h2 class="margin-top-bottom-none">recipes</h2>
+  <div class="grid explore">
+    <div class="col-4 grid-middle explore-recipes">
+      <div class="overlay"></div>
+      <h2 class="col-12">recipes</h2>
     </div>
 
     <div class="col-4 explore-travel">
@@ -119,7 +131,7 @@
 
 <div class="grid">
   <div class="col-2 grid-middle-center">
-    <p class="instagram-textbox"> check out what's happening on instagram </p>
+    <p class="instagram-textbox padded-2"> check  what's happening on instagram </p>
   </div>
 
   <div class="col-10">
