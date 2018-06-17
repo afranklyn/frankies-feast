@@ -4,7 +4,7 @@ title: First Blog Post
 meta-description:
 meta-keywords:
 featured_image: /images/recipes.jpg
-categories: [travel]
+categories: [travels]
 author: Anna Franklyn
 ---
 
