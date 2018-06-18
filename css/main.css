@@ -20,6 +20,7 @@ body {
 
 section, footer {padding: 5% 2%;}
 
+
 h3{
   color: #6B717E;
   font-size: 2rem;
@@ -230,15 +231,20 @@ hr {
 
 /* sidebar */
 .sidebar {
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   padding: 5%;
   height: 700px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
 
   /* Container holding the image and the text */
 .container {
     position: relative;
-    color: white;
     padding: 0.5rem;
 }
 
@@ -247,16 +253,28 @@ hr {
 }
 
   /* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: 0.5rem;
-    left: 0.5rem;
-    right:0.5rem;
+.bottom-left,
+.gradient-text {
     padding: 5rem 1rem 1rem;
     background-image: linear-gradient( rgba(255,255,255,0),#000000);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
 }
 
+.block { /* this is for all the post post anchor links blocks of content so that they behave as expected and the background image fills the container */
+  display: block;
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem;
+  padding-bottom: 50%;
+  position: relative;
+}
 
+.sidebar-image {
+  min-height: 15rem;
+}
 
 /* explore more section */
 
@@ -300,7 +318,7 @@ html {
 
  /* Typography */
 h1,h2,h3,h4,h5,h6 {
-  line-height: 1.4;
+  line-height: 1.2;
   margin: 0.3em 0;
   font-weight: 400;
   letter-spacing: -0.03em;
@@ -308,8 +326,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {  font-size: 2.3rem; }
-h2 {  font-size: 2rem; }
-h3 {  font-size: 1.8rem; }
+h2 {  font-size: 1.8rem; }
+h3 {  font-size: 1.4rem; }
 h4 {  font-size: 1.6rem; }
 h5 {  font-size: 1.4rem; }
 h6 {  font-size: 1.3rem; }

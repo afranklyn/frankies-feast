@@ -2,9 +2,8 @@
 
     {% for post in site.posts limit:1 %}
     <div class="container home-first-container  show-me">
-      <a href="{{post.url}}">
-        <img src="{{post.featured_image}}" alt="{{post.title}}">
-        <div class="bottom-left">
+      <a class="block" href="{{post.url}}" style="background-image:url({{post.featured_image}});">
+        <div class="gradient-text">
           <h3 class="white">{{post.categories}}</h3>
           <h2 class="white">{{post.title}}</h2>
         </div>
@@ -15,9 +14,8 @@
     <div class="grid">
       {% for post in site.posts limit:2 offset:1 %}
       <div class="container show-me col-6_sm-12">
-        <a href="{{post.url}}">
-          <img src="{{post.featured_image}}" alt="{{post.title}}">
-          <div class="bottom-left">
+        <a class="block" href="{{post.url}}" style="background-image:url({{post.featured_image}});">
+          <div class="gradient-text">
             <h3 class="white">{{post.categories}}</h3>
             <h2 class="white">{{post.title}}</h2>
           </div>
