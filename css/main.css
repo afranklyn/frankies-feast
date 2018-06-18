@@ -207,7 +207,7 @@ body.menu-hidden .mobile-menu {
   font-weight: 800;
   font-size: 5rem;
   color: #93E5AB;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .banner-h2 {
@@ -224,7 +224,7 @@ body.menu-hidden .mobile-menu {
 hr {
   display: block;
     margin-top: 1em;
-    margin-bottom: 3.5em;
+    margin-bottom: .5em;
     margin-left: 25%;
     margin-right: 25%;
     border: none;
@@ -428,5 +428,6 @@ a:hover {
 /* footer */
 footer {
   background-color: #6B717E;
+  padding: 3%
 
 }

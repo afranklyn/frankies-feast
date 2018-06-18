@@ -6,8 +6,8 @@ meta-keywords:
 featured_image: /images/favourites.jpg
 categories: [recipes]
 author: Anna Franklyn
-recipe:
-  prep-time:
+recipes:
+  hands-on-time:
   total-time:
   serves:
   description:
