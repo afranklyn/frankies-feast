@@ -96,6 +96,90 @@ a {
   color: inherit;
 }
 
+.header-hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+  padding: 16px;
+  visibility: hidden;
+}
+
+.header-hamburger p {
+  margin: 0;
+  font-weight: 800;
+  color: #93E5AB;
+  font-size: 1.25rem;
+  text-align: left;
+  line-height: 1;
+}
+
+.header-hamburger p span {
+  font-size: 0.75rem;
+  color: #6B717E;
+  font-weight: 300;
+}
+
+.header-hamburger img,
+.mobile-menu img {
+  width: 36px;
+  height: 36px;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 10;
+  transition: all .50s ease-in-out;
+  visibility: hidden;
+}
+
+.mobile-menu img {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.mobile-menu nav {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #93E5AB;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+body.menu-visible .mobile-menu {
+  right: 0;
+}
+
+body.menu-hidden .mobile-menu {
+  right: -200px;
+}
+
+.mobile-menu a {
+  padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+  header {
+    display: none;
+  }
+  .header-hamburger,
+  .mobile-menu {
+    visibility: visible;
+  }
+}
+
 /* social icon styling */
 
 .icon {
@@ -133,6 +217,12 @@ hr {
     margin-right: 25%;
     border: none;
     border-bottom: 2px solid #93E5AB;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    display: none;
+  }
 }
 
 /* featured posts section */
