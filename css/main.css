@@ -82,8 +82,9 @@ header nav {
   top: 0;
   right: 0;
   left: 0;
-  background-color: rgb(245,245,245);
+  background-color: white;
   z-index: 2;
+  box-shadow: #efefef 0px 0.5px 27px;
 }
 
 header nav a {
@@ -229,7 +230,7 @@ hr {
 
 /* sidebar */
 .sidebar {
-  background-color: grey;
+  border: 1px solid grey;
   padding: 5%;
   height: 700px;
 }
@@ -252,7 +253,7 @@ hr {
     left: 0.5rem;
     right:0.5rem;
     padding: 5rem 1rem 1rem;
-    background-image: linear-gradient( rgba(255,255,255,0),#344055);
+    background-image: linear-gradient( rgba(255,255,255,0),#000000);
 }
 
 
@@ -376,18 +377,20 @@ a:hover {
 
 /* contact form */
 
-.contact-form form * {
+.contact-form form *,
+.subscribe-form input {
   display: block;
   width: 100%;
   margin-top: 10px;
   margin-bottom:0;
   padding: 12px 8px;
   border-radius: 8px;
-  border-color: #6B717E;
+  border: 2px solid #6B717E;
   font-size: 0.8rem;
 }
 
-.contact-form button {
+.contact-form button,
+.subscribe-form .button  {
   background-color: #93E5AB;
   border-color: #93E5AB;
   color: white;
