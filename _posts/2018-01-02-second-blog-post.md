@@ -7,17 +7,7 @@ featured_image: /images/favourites.jpg
 categories:
   - recipes
 author: Anna Franklyn
-<<<<<<< HEAD:_posts/2018-01-02-second-blog.md
 recipes:
-  hands-on-time:
-  total-time:
-  serves:
-  description:
-  ingredients_markdown:
-  method_markdown:
-  notes_markdown:
-=======
-recipe:
   prep-time: 20 mins
   total-time: 1 hour
   serves: '5'
@@ -30,7 +20,6 @@ recipe:
     1. roast almonds
     2. do something else
   notes_markdown: '* this recipe will keep for 5 days in the fridge'
->>>>>>> e8ff4973f2823bb7333cbdd4164805d024a7008b:_posts/2018-01-02-second-blog-post.md
 ---
 
 Ad quo animal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel.
