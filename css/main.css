@@ -98,11 +98,11 @@ a {
 }
 
 /* frankie's feast banner */
-.bg {
+/* .bg {
   background-image: url("/images/placeholder.jpg");
   background-size: cover;
   min-height: 50vh;
-}
+} */
 
 .textbox{
   text-align: center;
@@ -122,6 +122,17 @@ a {
   font-size: 1rem;
   color: #6B717E;
   margin-top: 0px;
+}
+
+hr {
+  display: block;
+    margin-top: 1em;
+    margin-bottom: 3.5em;
+    margin-left: 20em;
+    margin-right: 20em;
+    /* border-style: inset; */
+    border: none;
+    border-bottom: 2px solid #93E5AB;
 }
 
 /* featured posts section */
