@@ -16,6 +16,7 @@ img {
 
 body {
   font-family: 'Work Sans', sans-serif;
+  padding-top: 35px;
 }
 
 section, footer {padding: 5% 2%;}
@@ -91,6 +92,11 @@ header nav {
 header nav a {
   vertical-align: middle;
   display: inline-block;
+  min-width: 2.3rem;
+  text-align: center;
+}
+
+header .fab {
 }
 
 a {
@@ -229,6 +235,7 @@ hr {
 
 /* featured posts section */
 
+
 /* sidebar */
 .sidebar {
   /* border: 1px solid grey; */
@@ -236,11 +243,11 @@ hr {
   height: 700px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .sidebar {
     display: none;
   }
-}
+} */
 
   /* Container holding the image and the text */
 .container {
@@ -368,7 +375,7 @@ a {
   text-decoration: none;
   /* border-bottom: 1px solid rgb(60,60,60); */
   padding: 2px;
-  transition: all 0.3s;
+  transition: color 0.3s;
 }
 
 a:hover {

@@ -9,7 +9,7 @@ comments: true
 
 <section class="grid">
 
-  <div class="col-8">
+  <div class="col-8_sm-12">
     <h1> {{page.title}} </h1>
     <h3 class="categories-typography"> {{page.categories}}</h3>
     <p class="post-meta">{{page.date | date_to_string }} | Written by {{page.author}}</p>
@@ -31,7 +31,7 @@ comments: true
 
   </div>
 
-  <div class="col-4">
+  <div class="col-4_sm-hidden">
     {% include sidebar.html %}
   </div>
 
