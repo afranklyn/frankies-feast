@@ -1,10 +1,7 @@
-<section>
-  <!-- <h3 class="center padded-3">featured posts</h3> -->
 
 
-    <!-- sort/filter function goes here -->
     {% for post in site.posts limit:1 %}
-    <div class="container capped-width">
+    <div class="container home-first-container capped-width">
       <a href="{{post.url}}">
         <img src="{{post.featured_image}}" alt="{{post.title}}">
         <div class="bottom-left">
@@ -28,5 +25,3 @@
       </div>
       {% endfor %}
   </div>
-
-</section>

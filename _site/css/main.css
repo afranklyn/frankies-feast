@@ -14,7 +14,7 @@ img {
   max-width:100%;
 }
 
-Body {
+body {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -98,11 +98,6 @@ a {
 }
 
 /* frankie's feast banner */
-/* .bg {
-  background-image: url("/images/placeholder.jpg");
-  background-size: cover;
-  min-height: 50vh;
-} */
 
 .textbox{
   text-align: center;
@@ -128,21 +123,30 @@ hr {
   display: block;
     margin-top: 1em;
     margin-bottom: 3.5em;
-    margin-left: 20em;
-    margin-right: 20em;
-    /* border-style: inset; */
+    margin-left: 25%;
+    margin-right: 25%;
     border: none;
     border-bottom: 2px solid #93E5AB;
 }
 
 /* featured posts section */
 
+/* sidebar */
+.sidebar {
+  background-color: grey;
+  padding: 5%;
+  height: 700px;
+}
 
   /* Container holding the image and the text */
 .container {
     position: relative;
     color: white;
     padding: 0.5rem;
+}
+
+.home-first-container {
+  padding-top: 0;
 }
 
   /* Bottom left text */
@@ -181,8 +185,3 @@ hr {
 }
 
 /* instagram widget */
-
-.margin-top-bottom-none {
-  margin-top: 0;
-  margin-bottom: 0;
-}
