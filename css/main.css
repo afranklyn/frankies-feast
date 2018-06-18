@@ -36,11 +36,15 @@ h3{
 .padded-3 { padding: 3%; }
 .padded-none { padding: 0; }
 
-.capped-width {
+.white {
+  color: white;
+}
+
+/* .capped-width {
   max-width: 1300px;
   margin: auto;
-}
-.relative {
+} */
+/* .relative {
   position: relative;
 }
 
@@ -51,7 +55,7 @@ h3{
   left: 0;
   right: 0;
   background-color: rgba(255,255,255,0.3);
-}
+} */
 
 /* .radial-overlay{
   position: absolute;
@@ -184,4 +188,119 @@ hr {
   background-image: url(../images/favourites.jpg);
 }
 
-/* instagram widget */
+/* blog posts */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+} */
+
+html {
+  font-size: 16px;
+  color: rgb(60,60,60);
+}
+
+
+ /* Typography */
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.4;
+  margin: 0.3em 0;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+h1 {  font-size: 2.3rem; }
+h2 {  font-size: 2rem; }
+h3 {  font-size: 1.8rem; }
+h4 {  font-size: 1.6rem; }
+h5 {  font-size: 1.4rem; }
+h6 {  font-size: 1.3rem; }
+
+.categories-typography {
+  font-size: 1rem;
+  color: #6B717E;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+}
+
+/* blockquote {
+  line-height: 1.4;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: rgb(150,150,150);
+  padding-left: 2.5rem;
+} */
+
+ul, ol {
+  list-style-position: inside;
+}
+
+li {
+  line-height: 1.4;
+  font-size: 1.1rem;
+  margin: 0.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  /* border-bottom: 1px solid rgb(60,60,60); */
+  padding: 2px;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #93E5AB;
+  border-bottom: 1px solid #93E5AB;
+}
+
+/* Blog post specific */
+.blog-post {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1% 3%;
+}
+
+.blog-post img {
+  margin: 2rem auto;
+  max-width: 100%;
+  display: block
+}
+.post-info {
+  color: #6B717E;
+  font-size: 1rem;
+}
+
+/* contact form */
+
+.contact-form form * {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding: 12px 8px;
+  border-radius: 8px;
+  border-color: transparent;
+  font-size: 1.2rem;
+}
+
+.contact-form button {
+  background-color: #93E5AB;
+  border-color: #93E5AB;
+  color: white;
+}
+
+footer {
+  background-color: #6B717E;
+  min-height: 20vh;
+}

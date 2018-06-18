@@ -11,7 +11,7 @@ comments: true
 
   <div class="col-8">
     <h1> {{page.title}} </h1>
-    <h3> {{page.categories}}</h3>
+    <h3 class="categories-typography"> {{page.categories}}</h3>
     <p class="post-meta">{{page.date | date_to_string }} | Written by {{page.author}}</p>
 
     <img src="{{page.featured_image}}">
@@ -19,6 +19,8 @@ comments: true
     <!-- social share buttons -->
 
     {{ content }}
+
+    {% include recipe-template.html %}
 
     <!-- recommended posts -->
 
