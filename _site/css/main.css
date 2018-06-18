@@ -217,6 +217,10 @@ body.menu-hidden .mobile-menu {
   margin-top: 0px;
 }
 
+.banner a:hover {
+  border: none;
+}
+
 hr {
   display: block;
     margin-top: 1em;
