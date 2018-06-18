@@ -4,50 +4,34 @@
   image?
  <div class="grid">
     <div class="col-4">
-      <h3>prep time <span> xxmins </span></h3>
+      <h3>prep time <span> {{page.recipes.prep-time}} mins </span></h3>
     </div>
     <div class="col-4">
-      <h3>total time <span> xxmins </span></h3>
+      <h3>total time <span>  {{page.recipes.total-time}} mins </span></h3>
     </div>
     <div class="col-4">
       <h3>serves <span> xx </span></h3>
     </div>
    </div>
   <h3>description</h3>
-    <p>this recipe is really easy and it's vegan</p>
+    <p>{{page.recipes.description}}</p>
 
   <div class="grid">
     <div class="col-4">
       <h3>ingredients</h3>
         <h4>subrecipe</h4>
-          <ul>
-            <li>ingredient 1</li>
-            <li>ingredient 2</li>
-            <li>ingredient 1</li>
-            <li>ingredient 2</li>
-            <li>ingredient 1</li>
-            <li>ingredient 2</li>
-          </ul>
+        {{ page.recipes.ingredients_markdown | markdownify }}
     </div>
 
     <div class="col-8">
       <h3>method</h3>
-        <ol>
-          <li>step 1</li>
-          <li>step 2</li>
-          <li>step 1</li>
-          <li>step 2</li>
-          <li>step 1</li>
-          <li>step 2</li>
-        </ol>
+
+        {{ page.recipes.method_markdown | markdownify }}
 
       <h3>notes</h3>
-      <ul>
-            <li>you can sub almonds for cashews</li>
-            <li>serve with this recipe</li>
-            <li>this will keep in the fridge for 5 days</li>
 
-          </ul>
+        {{ page.recipes.notes_markdown | markdownify }}
+
     </div>
 
 </section>
