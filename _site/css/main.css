@@ -35,6 +35,8 @@ h3{
 .padded-2 { padding: 2%; }
 .padded-3 { padding: 3%; }
 .padded-none { padding: 0; }
+.padded-right {padding-right: 10%;}
+.padded-none-top {padding-top: 0;}
 
 .white {
   color: white;
@@ -211,6 +213,7 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0.3em 0;
   font-weight: 400;
   letter-spacing: -0.03em;
+  color: #6B717E;
 }
 
 h1 {  font-size: 2.3rem; }
@@ -287,11 +290,11 @@ a:hover {
   display: block;
   width: 100%;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom:0;
   padding: 12px 8px;
   border-radius: 8px;
-  border-color: transparent;
-  font-size: 1.2rem;
+  border-color: #6B717E;
+  font-size: 0.8rem;
 }
 
 .contact-form button {
@@ -299,8 +302,8 @@ a:hover {
   border-color: #93E5AB;
   color: white;
 }
-
+/* footer */
 footer {
   background-color: #6B717E;
-  min-height: 20vh;
+
 }
