@@ -16,7 +16,7 @@ img {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 section, footer {padding: 5% 2%;}
@@ -273,6 +273,7 @@ hr {
     left:0;
     right:0;
 }
+
 
 .block { /* this is for all the post post anchor links blocks of content so that they behave as expected and the background image fills the container */
   display: block;
