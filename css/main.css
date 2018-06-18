@@ -170,7 +170,7 @@ body.menu-hidden .mobile-menu {
   padding: 1rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   header {
     display: none;
   }
@@ -219,7 +219,7 @@ hr {
     border-bottom: 2px solid #93E5AB;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .banner {
     display: none;
   }
