@@ -1,0 +1,34 @@
+/* Styling for SEARCH RESULTS PAGE */
+.search-box [class*=col-] {
+  padding-top: 1.5%;
+}
+
+.search-box * {
+  font-size: 1.3rem;
+}
+
+.search-box input {
+  padding: .5 2%;
+}
+
+.search-box .submit {
+  background-color: #93E5AB;
+  border-color: #93E5AB;
+  color: white;
+}
+
+.search-box .submit:hover {
+  cursor: pointer;
+}
+
+#search-results li {
+  list-style: none;
+}
+
+@media (min-width: 48em) {
+  #search-results li {
+    width: 30vw;
+    padding: .5rem;
+    display: inline-block;
+  }
+}

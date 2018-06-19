@@ -1,41 +1,50 @@
 
 <section class="recipe-typography">
-  <h2>recipe title</h4>
-    
-  image?
-
- <div class="grid">
-    <div class="col-4">
-      <h4>prep time <span> {{page.recipes.hands-on-time}} mins </span></h5>
-    </div>
-    <div class="col-4">
-      <h4>total time <span>  {{page.recipes.total-time}} mins </span></h5>
-    </div>
-    <div class="col-4">
-      <h4>serves <span> xx </span></h5>
-    </div>
-    <div class="col-12">
-    <h4>description</h5>
-    <p>{{page.recipes.description}}</p>
-  </div>
   <div class="grid">
-    <div class="col-4">
-      <h3 class="recipe">ingredients</h5>
-        <h4 class="recipe">subrecipe</h6>
-        {{ page.recipes.ingredients_markdown | markdownify }}
+    <div class="col-6">
+      <h2>{{page.title}}</h2>
     </div>
 
-    <div class="col-8">
-      <h3 class="recipe">method</h5>
-
-        {{ page.recipes.method_markdown | markdownify }}
-
-      <h3 class="recipe">notes</h5>
-
-        {{ page.recipes.notes_markdown | markdownify }}
-
+    <div class="col-6">
+      image
     </div>
 
+  </div>
+
+   <div class="grid">
+      <div class="col-4">
+        <h4>prep time <span> {{page.recipes.hands-on-time}} mins </span></h4>
+      </div>
+      <div class="col-4">
+        <h4>total time <span>  {{page.recipes.total-time}} mins </span></h4>
+      </div>
+      <div class="col-4">
+        <h4>serves <span> {{page.recipes.serves}} </span></h4>
+      </div>
+      <div class="col-12">
+        <h4>description</h4>
+        <p>{{page.recipes.description}}</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col-4">
+        <h3>ingredients</h3>
+          <h4>subrecipe</h4>
+          {{ page.recipes.ingredients_markdown | markdownify }}
+      </div>
+
+      <div class="col-8">
+        <h3>method</h3>
+
+          {{ page.recipes.method_markdown | markdownify }}
+
+        <h3>notes</h3>
+
+          {{ page.recipes.notes_markdown | markdownify }}
+
+      </div>
+  </div>
 </section>
 
 
