@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Second Blog Post
+title: second blog post
 meta-description:
 meta-keywords:
 featured_image: /images/favourites.jpg
