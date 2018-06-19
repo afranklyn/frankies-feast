@@ -405,6 +405,12 @@ a:hover {
   font-size: 1rem;
 }
 
+/* recipe-template */
+
+.recipe-typography h2 {
+  font-size: 0.5rem;
+}
+
 /* contact form */
 
 .contact-form form *,
