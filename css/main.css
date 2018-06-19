@@ -48,7 +48,8 @@ h3{
   max-width: 1300px;
   margin: auto;
 } */
-/* .relative {
+
+.relative {
   position: relative;
 }
 
@@ -58,9 +59,12 @@ h3{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255,255,255,0.3);
-} */
+  background-color: rgba(255,255,255,0.5);
+}
 
+.explore h2 {
+  position: relative;
+}
 /* .radial-overlay{
   position: absolute;
   top: 0;
@@ -102,6 +106,7 @@ header .fab {
 a {
   text-decoration: none;
   color: inherit;
+  transition: 1s;
 }
 
 .header-hamburger {
@@ -424,4 +429,15 @@ a:hover {
 footer {
   background-color: #6B717E;
 
+}
+
+/* filter area */
+.filter {
+  background-color: #eee;
+  padding: 5%;
+}
+
+.filter select {
+  height: 40px;
+  width: 100%;
 }
