@@ -16,7 +16,7 @@ img {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 section, footer {padding: 5% 2%;}
@@ -212,7 +212,7 @@ body.menu-hidden .mobile-menu {
   font-weight: 800;
   font-size: 5rem;
   color: #93E5AB;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .banner-h2 {
@@ -222,10 +222,14 @@ body.menu-hidden .mobile-menu {
   margin-top: 0px;
 }
 
+.banner a:hover {
+  border: none;
+}
+
 hr {
   display: block;
     margin-top: 1em;
-    margin-bottom: 3.5em;
+    margin-bottom: .5em;
     margin-left: 25%;
     margin-right: 25%;
     border: none;
@@ -274,6 +278,7 @@ hr {
     left:0;
     right:0;
 }
+
 
 .block { /* this is for all the post post anchor links blocks of content so that they behave as expected and the background image fills the container */
   display: block;
@@ -405,6 +410,12 @@ a:hover {
   font-size: 1rem;
 }
 
+/* recipe-template */
+
+.recipe-typography h2 {
+  font-size: 0.5rem;
+}
+
 /* contact form */
 
 .contact-form form *,
@@ -428,6 +439,7 @@ a:hover {
 /* footer */
 footer {
   background-color: #6B717E;
+  padding: 3%
 
 }
 
