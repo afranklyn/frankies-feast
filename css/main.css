@@ -17,6 +17,7 @@ img {
 body {
   font-family: 'Work Sans', sans-serif;
   padding-top: 40px;
+  font-weight: 300;
 }
 
 section, footer {padding: 5% 2%;}
@@ -39,15 +40,17 @@ h3{
 .padded-none { padding: 0; }
 .padded-right {padding-right: 10%;}
 .padded-none-top {padding-top: 0;}
+.padded-bottom {padding-bottom: 2%;}
+.padded-bottom-5 {padding-bottom: 5%;}
+
 
 .white {
   color: white;
 }
 
-/* .capped-width {
-  max-width: 1300px;
-  margin: auto;
-} */
+.bold {
+  font-weight: 900;
+}
 
 .relative {
   position: relative;
@@ -65,15 +68,6 @@ h3{
 .explore h2 {
   position: relative;
 }
-/* .radial-overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: radial-gradient(#344055, rgba(255, 255, 255, 0));
-
-} */
 
 .button {
   border: 1px solid #6B717E;
@@ -195,10 +189,10 @@ body.menu-hidden .mobile-menu {
 
 /* social icon styling */
 
-.icon {
+/* .icon {
   width: 30px;
   height: auto;
-}
+} */
 
 /* frankie's feast banner */
 
@@ -264,9 +258,9 @@ hr {
     padding: 0.5rem;
 }
 
-.home-first-container {
+/* .home-first-container {
   padding-top: 0;
-}
+} */
 
   /* Bottom left text */
 .bottom-left,
@@ -304,16 +298,16 @@ hr {
 }
 
 .explore-recipes {
-  background-image: url(../images/recipes.jpg);
+  background-image: url(../images/blissballs.jpg);
 
 }
 
 .explore-travel {
-  background-image: url(../images/placeholder.jpg);
+  background-image: url(../images/sanblas.jpg);
 }
 
 .explore-favourites {
-  background-image: url(../images/favourites.jpg);
+  background-image: url(../images/brownies.jpg);
 }
 
 /* blog posts */
@@ -338,7 +332,7 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.2;
   margin: 0.3em 0;
   font-weight: 400;
-  letter-spacing: -0.03em;
+  /* letter-spacing: -0.03em; */
   color: #6B717E;
 }
 
@@ -449,7 +443,11 @@ a:hover {
 footer {
   background-color: #6B717E;
   padding: 3%
+}
 
+footer p {
+  margin: 0;
+  font-size: .9rem;
 }
 
 /* filter area */
@@ -461,4 +459,12 @@ footer {
 .filter select {
   height: 40px;
   width: 100%;
+}
+
+.about-me a {
+  border-bottom: 1px solid #93E5AB;
+}
+
+.about-me-h2 {
+  margin-top: 1.5rem;
 }

@@ -12,7 +12,7 @@
     {% endfor %}
 
     <div class="grid">
-      {% for post in site.posts limit:2 offset:1 %}
+      {% for post in site.posts limit:4 offset:1 %}
       <div class="container show-me col-6_sm-12">
         <a class="block" href="{{post.url}}" style="background-image:url({{post.featured_image}});">
           <div class="gradient-text">
