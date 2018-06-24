@@ -62,7 +62,7 @@ h3{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.3);
 }
 
 .explore h2 {
@@ -213,7 +213,8 @@ body.menu-hidden .mobile-menu {
   font-weight: 300;
   font-size: 1rem;
   color: #6B717E;
-  margin-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .banner a:hover {
