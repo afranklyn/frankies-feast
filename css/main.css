@@ -38,6 +38,7 @@ h3{
 .padded-2 { padding: 2%; }
 .padded-3 { padding: 3%; }
 .padded-none { padding: 0; }
+.padded-left-right {padding: 3% 7%;}
 .padded-right {padding-right: 10%;}
 .padded-none-top {padding-top: 0;}
 .padded-bottom {padding-bottom: 2%;}
@@ -244,7 +245,11 @@ hr {
 .sidebar {
   /* border: 1px solid grey; */
   padding: 5%;
-  height: 700px;
+  height: 1000px;
+  /* flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 /* @media (max-width: 768px) {
@@ -285,7 +290,7 @@ hr {
 }
 
 .sidebar-image {
-  min-height: 15rem;
+  min-height: 16rem;
 }
 
 /* explore more section */
