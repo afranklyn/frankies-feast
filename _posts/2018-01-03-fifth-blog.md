@@ -3,7 +3,7 @@ layout: post
 title: third Blog Post
 meta-description:
 meta-keywords:
-featured_image: /images/placeholder.jpg
+featured_image: /images/sanblas.jpg
 categories: [favourites]
 author: Anna Franklyn
 permalink: /:year/:month/:day/:title
