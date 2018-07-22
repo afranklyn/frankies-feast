@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'raw chocolate raspberry slice [dairy free, egg free, gluten free, raw, vegan]'
+title: 'raw chocolate raspberry slice [dairy free, egg free, gluten free]'
 meta-description: raw chocolate raspberry slice
 meta-keywords: >-
   raw chocolate raspberry slice, dairy free, egg free, vegan, raw, gluten free,

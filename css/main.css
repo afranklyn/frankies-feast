@@ -164,6 +164,11 @@ a {
   align-items: center;
   display: flex;
   justify-content: center;
+  color: white;
+}
+
+.mobile-menu a:hover {
+  color: #6B717E;
 }
 
 body.menu-visible .mobile-menu {
@@ -434,7 +439,7 @@ a:hover {
   margin-top: 10px;
   margin-bottom:0;
   padding: 12px 8px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   border: 1px solid #6B717E;
   font-size: 0.8rem;
 }

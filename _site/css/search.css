@@ -1,10 +1,12 @@
 /* Styling for SEARCH RESULTS PAGE */
 .search-box [class*=col-] {
-  padding-top: 1.5%;
+  margin-top: 10px;
+  padding: 12px 8px;
+  border: 1px solid #93E5AB;
 }
 
 .search-box * {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
 }
 
 .search-box input {
