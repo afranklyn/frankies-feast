@@ -14,7 +14,7 @@ recipes:
   prep-time: 30 mins
   total-time: 3.5 hour
   serves: 12 large slices
-  description:
+  description: raw chocolate raspberry slice
   ingredients_markdown: >-
     Base Layer
 
