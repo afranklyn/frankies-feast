@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Blog Post
+date: 2015-11-17 16:16:01 -0600
 meta-description:
 meta-keywords:
 featured_image: /images/recipes.jpg
