@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'raw chocolate raspberry slice [dairy free, egg free, gluten free, raw, vegan]'
+title: 'raw chocolate raspberry slice [dairy free, egg free, gluten free]'
 meta-description: raw chocolate raspberry slice
 meta-keywords: >-
   raw chocolate raspberry slice, dairy free, egg free, vegan, raw, gluten free,
@@ -80,8 +80,6 @@ recipes:
 
     The defrosting time will depend on how big you have cut your slices.
 ---
-
-&nbsp;
 
 I managed to make this slice one night after work and was so happy to find that I had all the ingredients sitting in my pantry. If you cook raw/vegan foods often this will be a breeze for you. And while I have said to soak your cashews in the recipe, I'll let you in on a secret. It's not 100% necessary. If you have time then it's a good idea, but if you forgot to soak your cashews then there is no reason to throw in the towel! I didn't soak mine and I got nothing but praise for these babies.
 
