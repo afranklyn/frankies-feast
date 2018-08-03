@@ -96,4 +96,4 @@ My original recipe had a little bit of coconut in the middle layer but I couldn'
 
 ![](/uploads/rawchocraspberryslice-4.jpg)
 
-On the topic of coconut, I might have mentioned my love of coconut butter in a previous post. I resisted the temptation to buy it for so long because it is not exactly cheap. But I caved a bought it and now I'm hooked. It is just a lot creamier than coconut oil which I love, especially when it comes to homemade chocolate. Having said that, if your willpower is stronger than mine and you don't have any coconut butter, then coconut oil will do the trick for your top layer.---
+On the topic of coconut, I might have mentioned my love of coconut butter in a previous post. I resisted the temptation to buy it for so long because it is not exactly cheap. But I caved a bought it and now I'm hooked. It is just a lot creamier than coconut oil which I love, especially when it comes to homemade chocolate. Having said that, if your willpower is stronger than mine and you don't have any coconut butter, then coconut oil will do the trick for your top layer.
