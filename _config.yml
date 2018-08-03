@@ -65,3 +65,9 @@ autopages:
       - 'category.html'
     title: 'Archive Posts'
     permalink: '/archive/:coll/'
+
+  tags:
+    layouts:
+      - 'category.html'
+    title: 'Archive Posts'
+    permalink: '/archive/:tag/'

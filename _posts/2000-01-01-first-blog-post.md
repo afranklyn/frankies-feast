@@ -6,6 +6,9 @@ meta-keywords:
 featured_image: /images/recipes.jpg
 categories:
   - recipes
+tags:
+  - breakfast
+recipe: true
 author: Anna Franklyn
 permalink: '/:year/:month/:day/:title'
 ---

@@ -20,8 +20,11 @@ permalink: /:year/:month/:day/:title
 
     {{ content }}
 
+      {% if page.recipe == true %}
 
       {% include recipe-template.html %}
+
+      {% endif %}
 
 
     <!-- recommended posts -->
