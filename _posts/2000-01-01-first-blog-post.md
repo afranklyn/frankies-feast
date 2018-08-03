@@ -8,7 +8,6 @@ categories:
   - recipes
 tags:
   - breakfast
-recipe: true
 author: Anna Franklyn
 permalink: '/:year/:month/:day/:title'
 ---

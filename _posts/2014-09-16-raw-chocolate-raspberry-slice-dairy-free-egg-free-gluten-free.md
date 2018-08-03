@@ -10,6 +10,7 @@ categories:
   - recipes
 author: Anna Franklyn
 permalink: '/:year/:month/:day/:title'
+recipe: true
 recipes:
   prep-time: 30 mins
   total-time: 3.5 hour

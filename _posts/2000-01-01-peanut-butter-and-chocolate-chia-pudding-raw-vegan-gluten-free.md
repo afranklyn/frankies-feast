@@ -8,6 +8,7 @@ categories:
   - recipes
 author: Anna Franklyn
 permalink: /2017/09/03/peanut-butter-chocolate-chia-pudding-vegan/
+recipe: true
 ---
 
 If you’re the kind of person who doesn’t mind a bit of peanut butter and chocolate for breakfast then firstly, we can be friends, and secondly, this peanut butter chocolate chia pudding recipe is for you.
