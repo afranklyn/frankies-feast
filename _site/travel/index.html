@@ -4,7 +4,7 @@
 
     <!-- meta -->
     <meta charset="utf-8">
-    <title>  </title>
+    <title> travel </title>
     <!-- the below makes website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
@@ -81,25 +81,51 @@
 </div>
 
 
-     <!-- Followed this demo:
- http://rayhightower.com/blog/2016/01/04/how-to-make-lunrjs-jekyll-work-together/ -->
+    <h1 class="center"> travel</h1>
 
-<section class="grid-middle-center">
+<div class="center grid-middle-center">
+  <div class="filter col-6 grid-middle">
+    <div class="col-7 padded-3">
+      <select name="cat" id="cat" class="postform">
+      	<option value="-1">BY CATEGORY</option>
+      	<option class="level-0" value="5">Breakfast and Brunch</option>
+      	<option class="level-0" value="7">Brownies, Bars, Balls and Slices</option>
+      	<option class="level-0" value="8">Cakes, Cookies and Cupcakes</option>
+      	<option class="level-0" value="11">Desserts</option>
+      	<option class="level-0" value="242">Drinks</option>
+      	<option class="level-0" value="12">Frankie’s Features</option>
+      	<option class="level-0" value="13">Ice Cream</option>
+      	<option class="level-0" value="15">Mains</option>
+      	<option class="level-0" value="16">Raw</option>
+      	<option class="level-0" value="224">Recipe</option>
+      	<option class="level-0" value="17">Salads</option>
+      	<option class="level-0" value="19">Sauces, Seasonings, Spreads and Condiments</option>
+      	<option class="level-0" value="252">Thermomix</option>
+      	<option class="level-0" value="23">Vegan</option>
+      	<option class="level-0" value="24">Vegetarian</option>
+      </select>
+    </div>
+    <div class="col-5 padded-3">
+      <!-- search bar -->
+      <a href="/search">search <i class="fas fa-search"></i></a>
+    </div>
+  </div>
+</div>
 
-  <div class="col-6">
-    <form class="grid search-box" action="/search.html" method="get">
-  <!-- <label for="search-box">Search</label> -->
-  <input class="col-9" type="text" id="search-box" name="query" placeholder="search the site">
-  <input class="col-3 submit" type="submit" value="search">
-</form>
+<div class="grid padded-3 show-me">
 
+  <div class="col-4_sm-6_xs-12 container">
+    <a class="block" href="/2018/01/03/third-blog-post" style="background-image:url(/images/sanblas.jpg);">
+      <div class="gradient-text">
+        <h2 class="white">third Blog Post</h2>
+      </div>
+    </a>
   </div>
 
-  <div class="search-results-page col-12">
-    <ul id="search-results"></ul>
-  </div>
 
-</section>
+</div>
+
+</div>
 
 
     
